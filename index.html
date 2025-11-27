@@ -1,14 +1,16 @@
----
-layout: default
-title: Andreas
----
-
-Welcome!
-
-{% for post in site.posts limit:5 %}
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-	{{ post.content }}
-	<em>Posted on {{ post.date | date_to_long_string }}.</em>
-{% endfor %}
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andreas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Andreas</h1>
+        <p>Find me on GitHub</p>
+        <a href="https://github.com/AndreasOM" target="_blank" rel="noopener noreferrer">github.com/AndreasOM</a>
+    </div>
+</body>
+</html>
